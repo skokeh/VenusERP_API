@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenusERP_API", "VenusERP_API.csproj", "{676E0443-014D-47A5-815D-306913CFC00C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceKSADemo.Helpers", "..\EInvoiceKSADemo.Helpers\EInvoiceKSADemo.Helpers.csproj", "{58B81A78-CFFB-43F7-9758-659DA1592901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenusERP_Domain", "..\VenusERP_Domain\VenusERP_Domain.csproj", "{B3D28C16-C54D-4D29-BA79-377330818CE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenusERP_Application", "..\VenusERP_Application\VenusERP_Application.csproj", "{C9B5AA0B-B450-4B99-88A6-03ED969667C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenusERP_Persistence", "..\VenusERP_Persistence\VenusERP_Persistence.csproj", "{4DFA246F-8CD7-4423-A6D4-712625BA507F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VenusERP_Infrastructure", "..\VenusERP_Infrastructure\VenusERP_Infrastructure.csproj", "{AE2A0966-AE44-4BF5-B8A5-133683F5B74B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{880377CD-5554-4338-84C2-C194C47BA9B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmacyIntegrationTrackCore.Services", "..\PharmacyIntegrationTrackCore.Services\PharmacyIntegrationTrackCore.Services.csproj", "{2CF98DA6-D1CA-4D16-A013-8776BD77C84F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{676E0443-014D-47A5-815D-306913CFC00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676E0443-014D-47A5-815D-306913CFC00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676E0443-014D-47A5-815D-306913CFC00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676E0443-014D-47A5-815D-306913CFC00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B81A78-CFFB-43F7-9758-659DA1592901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B81A78-CFFB-43F7-9758-659DA1592901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B81A78-CFFB-43F7-9758-659DA1592901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B81A78-CFFB-43F7-9758-659DA1592901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D28C16-C54D-4D29-BA79-377330818CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D28C16-C54D-4D29-BA79-377330818CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D28C16-C54D-4D29-BA79-377330818CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D28C16-C54D-4D29-BA79-377330818CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B5AA0B-B450-4B99-88A6-03ED969667C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B5AA0B-B450-4B99-88A6-03ED969667C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B5AA0B-B450-4B99-88A6-03ED969667C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B5AA0B-B450-4B99-88A6-03ED969667C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFA246F-8CD7-4423-A6D4-712625BA507F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFA246F-8CD7-4423-A6D4-712625BA507F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFA246F-8CD7-4423-A6D4-712625BA507F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFA246F-8CD7-4423-A6D4-712625BA507F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2A0966-AE44-4BF5-B8A5-133683F5B74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2A0966-AE44-4BF5-B8A5-133683F5B74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2A0966-AE44-4BF5-B8A5-133683F5B74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2A0966-AE44-4BF5-B8A5-133683F5B74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF98DA6-D1CA-4D16-A013-8776BD77C84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF98DA6-D1CA-4D16-A013-8776BD77C84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF98DA6-D1CA-4D16-A013-8776BD77C84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF98DA6-D1CA-4D16-A013-8776BD77C84F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CF98DA6-D1CA-4D16-A013-8776BD77C84F} = {880377CD-5554-4338-84C2-C194C47BA9B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6771B77-7BD9-4F38-A16A-A43BEDF9D11E}
+	EndGlobalSection
+EndGlobal
